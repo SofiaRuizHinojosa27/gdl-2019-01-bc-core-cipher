@@ -1,18 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>cipher</title>
   </head>
   <body>
-    <div id="root">
-      <h1>NUESTRO LUGAR SECRETO</h1>
-      <p>¿Qué deseas hacer?</p>
-      <button type="button" id="descubrir" class="btn" onclick="">DESCUBRIR</button>
-      <button type="button" id="ocultar" class="btn" onclick="">OCULTAR LUGAR</button>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+
+<div id="pag1" class="pag1">
+<header>NUESTRO LUGAR SECRETO</header>
+<img src="https://st2.depositphotos.com/1017986/10858/i/950/depositphotos_108588998-stock-photo-drawing-of-travel-stuff-and.jpg">
+    <p><strong>¿Qué deseas hacer?</strong></p>
+</div>
+<br>
+
+<div id="descifrarPag" class="pag2">
+  <h2>Descifra tu lugar</h2>
+  <p><strong>Tu palabra clave:</strong>
+  <mark>(recuerda solo poner MAYUSCULAS)</mark></p>
+  <input type="text" id="string" value="">
+  <p><strong>Número clave:</strong></p>
+  <input type="number" id="num" value="" min="1" max="99">
+  <button type="button" id="descifrar" >DESCIFRAR</button>
+</div>
+
+<div id="ocultarPag" class="pag3">
+  <h2>Oculta tu lugar</h2>
+  <p><strong>¿A donde quieres ir?</strong><mark>(solo MAYUSCULAS,no espacio y no Ñ)</mark>
+  </p>
+  <input type="text" id="string" value="">
+  <p><strong>Crea tu numero clave </strong><mark>(No olvides anotarlo porque lo debes dar junto con tu palabra clave)</mark></p>
+  <input type="number" id="num" value="" min="1" max="99">
+  <button type="button" id="cifrar" onclick="">OCULTAR LUGAR</button>
+</div>
+
+<div class="resultado"></div>
+
   </body>
 </html>
