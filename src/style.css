@@ -1,0 +1,27 @@
+img{
+  width: 1000px;
+  height: 300px;
+
+}
+header{
+  font-style: italic;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: inherit;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: inherit;
+}
+form{
+  text-align:center;
+}
+body{
+  text-align:left;
+}
