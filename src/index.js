@@ -9,7 +9,7 @@
    document.getElementById("resultado").innerHTML= cifrado;
    }
 
- //document.getElementById('btnD').addEventListener('click',encode);
+ document.getElementById('btnC').addEventListener('click',encode);
 
 function decode(){
   let num=parseInt(document.getElementById("numD").value);
@@ -17,3 +17,5 @@ function decode(){
   let descifrado=window.cipher.decode(num,text);
   document.getElementById("resultadoD").innerHTML= descifrado;
 }
+
+document.getElementById('btnD').addEventListener('click',decode);
