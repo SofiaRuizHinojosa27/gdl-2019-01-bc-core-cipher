@@ -7,6 +7,9 @@
   </head>
   <body>
 
+<script type="text/javascript" src="cipher.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
 <div id="pag1" class="pag1">
 <header>NUESTRO LUGAR SECRETO</header>
 <img src="https://st2.depositphotos.com/1017986/10858/i/950/depositphotos_108588998-stock-photo-drawing-of-travel-stuff-and.jpg">
@@ -18,23 +21,24 @@
   <h2>Descifra tu lugar</h2>
   <p><strong>Tu palabra clave:</strong>
   <mark>(recuerda solo poner MAYUSCULAS)</mark></p>
-  <input type="text" id="string" value="">
+  <input type="text" id="secretD">
   <p><strong>Número clave:</strong></p>
-  <input type="number" id="num" value="" min="1" max="99">
-  <button type="button" id="descifrar" >DESCIFRAR</button>
-</div>
+  <input type="number" id="numD"  min="1">
+  <button type="submit" id="btnD" onclick="decode()" >DESCIFRAR</button>
+  <p id="resultadoD"><P>
+</div
 
 <div id="ocultarPag" class="pag3">
   <h2>Oculta tu lugar</h2>
   <p><strong>¿A donde quieres ir?</strong><mark>(solo MAYUSCULAS,no espacio y no Ñ)</mark>
   </p>
-  <input type="text" id="string" value="">
+  <input type="text" id="secret" >
   <p><strong>Crea tu numero clave </strong><mark>(No olvides anotarlo porque lo debes dar junto con tu palabra clave)</mark></p>
-  <input type="number" id="num" value="" min="1" max="99">
-  <button type="button" id="cifrar" onclick="">OCULTAR LUGAR</button>
+  <input type="number" id="num"  min="1">
+  <button type="submit" id="btnC" onclick="encode()">OCULTAR LUGAR</button>
 </div>
 
-<div class="resultado"></div>
+<p id="resultado"><P>
 
   </body>
 </html>
