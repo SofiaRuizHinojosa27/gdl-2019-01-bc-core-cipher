@@ -21,7 +21,7 @@ decode (num,text)  {
 
 	for (let i = 0; i < text.length; i++) {
 		let code = text.charCodeAt(i);
-		let codeDeciphered = (code + 65 - num) % 26 + 65;
+		let codeDeciphered = ((code + 65 - num) % 26 + 65);
 		wordDeciphered.push(String.fromCharCode(codeDeciphered));
 	}
 	let result = wordDeciphered.join('');

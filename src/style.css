@@ -18,10 +18,54 @@ h2{
   font-size: 50px;
   font-weight: bold;
   margin-top: inherit;
+  color: SlateGrey;
+  text-align: center;
+  background-color: Turquoise;
 }
 form{
   text-align:center;
 }
 body{
   text-align:left;
+}
+mark {
+  background-color: LIGHTSEAGREEN;
+  color: white;
+  size:30px;
+}
+
+#introduccion{
+  text-align: center;
+  font-size: 30px;
+  color:TEAL;
+}
+#btnC{
+  background-color: STEELBLUE;
+  color:white;
+}
+#btnC:hover{
+  background-color: MEDIUMTURQUOISE;
+}
+#btnD{
+  background-color: STEELBLUE;
+  color:white;
+}
+#btnD:hover{
+  background-color: MEDIUMTURQUOISE;
+}
+#deseas{
+  text-align: center;
+  font-size: 40px;
+}
+#resultadoD{
+  text-align: center;
+  font-size: 50px;
+  color:white;
+  background-color: MEDIUMSLATEBLUE;
+}
+#resultado{
+  text-align: center;
+  font-size: 50px;
+  color:white;
+  background-color: MEDIUMSLATEBLUE;
 }
