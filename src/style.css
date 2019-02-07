@@ -1,6 +1,9 @@
 img{
-  width: 1000px;
+  width: 700px;
   height: 300px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25%;
 
 }
 header{
@@ -59,13 +62,13 @@ mark {
 }
 #resultadoD{
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   color:white;
   background-color: MEDIUMSLATEBLUE;
 }
 #resultado{
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   color:white;
   background-color: MEDIUMSLATEBLUE;
 }
