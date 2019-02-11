@@ -1,4 +1,4 @@
-#Proyecto: Cifrado Cesar
+# Proyecto: Cifrado Cesar
 
 En nuestro primer proyecto en el bootcamp nos pidieron realizar una página que pudiera descifrar o cifrar una palabra en MAYUSCULAS sin poner espacios y no utilizando la Ñ, mediante un determinado número de desplazamiento que el usuario fuera capaz de elegir.
 
@@ -6,16 +6,16 @@ La página que yo decidí hacer se llama NUESTRO LUGAR SECRETO y trata sobre una
 
 Las herramientas utilizadas para realizar mi página fueron: HTML, JS y CSS, y para poder realizar la función de cifrado y descifrado, se utilizó la fórmula que MICHELLE sugirió para poder convertir las palabras con el método ASCII.
 
-##•	Quiénes son los principales usuarios de producto.
+## •	Quiénes son los principales usuarios de producto.
 
 Los usuarios de NUESTRO LUGAR SECRETO puede ser toda clase de gente, desde amigos que quieran pasarse el punto de reunión de forma divertida, como también colegas de trabajo que necesiten decir un lugar de encuentro sin que otros se enteren.
 De igual forma sirve para parejas que quieran mandar la ubicación de una manera misteriosa o de manera romántica. Dándole un toque diferente y cautivador a su cita.
 
-##•	Cuáles son los objetivos de estos usuarios en relación con tu producto.
+## •	Cuáles son los objetivos de estos usuarios en relación con tu producto.
 
 El objetivo es poder ocultar el lugar en donde se piensan reunir de manera sencilla y segura, con tan solo un número que ellos eligen como clave puedan realizar la función del cifrado, y que de igual manera sea fácil poder descubrir su lugar secreto mediante el mensaje cifrado que de la otra persona les brinda junto con su número clave.
 
-##•	Cómo crees que el producto que estás creando está resolviendo sus problemas.
+## •	Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 NUESTRO LUGAR SECRETO, cumple con su propósito mediante el cifrado y descifrado de lugares de puntos de reunión, llenando a los usuarios de una experiencia curiosa de ponerse de acuerdo con las personas que le interesan o de ponerse de acuerdo de una manera privada y secreta.
 Tanto para una empresa que necesita hacer reuniones con ciertos colaboradores por división de departamentos o proyectos, o un grupo de amigos que quieren reunirse sin que nadie más sepa en donde van a estar.

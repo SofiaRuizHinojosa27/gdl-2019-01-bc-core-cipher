@@ -1,3 +1,11 @@
+@media only screen and(max-width:800px){
+  .pag1{
+    width: 80%;
+    padding: 0;
+    image-orientation: center;
+  }
+}
+
 img{
   width: 700px;
   height: 300px;
@@ -7,44 +15,55 @@ img{
 
 }
 header{
-  font-style: italic;
-  font-size: 100px;
+  font-style: normal;
+  font-size: 90px;
   font-weight: bold;
   margin-top: inherit;
+  background-color: #D3C7B4;
+  opacity: 0.8;
 }
 
 p{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+
 }
 h2{
   font-size: 50px;
   font-weight: bold;
   margin-top: inherit;
-  color: SlateGrey;
   text-align: center;
-  background-color: Turquoise;
+  color:#DC143C;
+background-color: #F0E68C;
+opacity: 0.8;
+
 }
 form{
   text-align:center;
 }
 body{
   text-align:left;
+  background-image:url(https://i0.wp.com/www.bohemioviajero.com/wp-content/uploads/2018/03/fbb7f6056dd801bcb863bc74ac2264fe.jpg?resize=500%2C748&ssl=1);
 }
 mark {
-  background-color: LIGHTSEAGREEN;
-  color: white;
+  background-color: #D3D3D3;
+  color: black;
   size:30px;
 }
 
 #introduccion{
   text-align: center;
   font-size: 30px;
-  color:TEAL;
+  color:black;
+background-color: #D3C7B4;
+opacity: 0.8;
+
 }
 #btnC{
   background-color: STEELBLUE;
   color:white;
+  border-radius: 6px;
+  font-weight: 800;
 }
 #btnC:hover{
   background-color: MEDIUMTURQUOISE;
@@ -52,6 +71,8 @@ mark {
 #btnD{
   background-color: STEELBLUE;
   color:white;
+  border-radius: 6px;
+  font-weight: 800;
 }
 #btnD:hover{
   background-color: MEDIUMTURQUOISE;
@@ -59,16 +80,39 @@ mark {
 #deseas{
   text-align: center;
   font-size: 40px;
+  color:#DC143C;
+  background-color: #D3C7B4;
+  opacity: 0.8
 }
 #resultadoD{
   text-align: center;
   font-size: 30px;
-  color:white;
-  background-color: MEDIUMSLATEBLUE;
+  color: #778899;
+  background-color: 	#87CEFA;
 }
 #resultado{
   text-align: center;
   font-size: 30px;
-  color:white;
-  background-color: MEDIUMSLATEBLUE;
+  color:#778899;
+  background-color: 	#87CEFA;
+}
+
+.pag2{
+  background-color: #FAF0E6;
+  opacity: 0.8;
+}
+
+.pag3{
+  background-color: #FAF0E6;
+  opacity: 0.8;
+}
+.shape{
+  border-radius: 5px;
+  background-color: #FFFAF0;
+  width: 300px;
+  height: 60px;
+  border-width:medium;
+  border-style:solid;
+  border-color:orange;
+  font-size:20px;
 }
